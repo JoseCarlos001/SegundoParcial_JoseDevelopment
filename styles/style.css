@@ -1,0 +1,441 @@
+/* estilo login */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+    body {
+        background-image: url(../images/fondo.jpg) ;
+
+    }
+#registro{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    }
+
+  .form-register {
+    width: 400px;
+    background: #000000;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+
+  }
+
+  .form-register h4{
+      font-size: 22px;
+      margin-bottom: 20px;
+  }
+
+  .controls{
+      width: 100%;
+      background: #818486;
+      padding: 10px;
+      border-radius: 4px;
+      margin-bottom: 16px;
+      border: 1px solid #818486;
+      font-family: 'fantasy';
+      font-size: 18px;
+      color: white;
+}
+
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a{
+    color: white;
+    text-decoration: none;
+}
+
+.form-register a:hover{
+    width: 100%;
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+  /* Diseño Login*/
+
+  #login{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    }
+
+  .form-login {
+    width: 400px;
+    height: 340px;
+    background: #000000;
+    padding: 30px;
+    margin: auto;
+    margin-top: 180px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    box-shadow: 7px 13px 37px #000;
+  }
+
+  
+
+  .controlsl{
+    width: 100%;
+    background: #818486;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1fc5bd;
+    font-family: 'fantasy';
+    font-size: 18px;
+    color: white;
+}
+
+
+.form-login .botons {
+    width: 100px;
+    height: 40px;
+    background: #1fc5bd;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+
+
+    }
+ 
+        
+
+    .form-login p{
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+    }
+    
+    .form-login a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .form-login a:hover{
+        width: 100%;
+        color: white;
+        text-decoration: underline;
+    }
+    
+  .form-login h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* diseño index */
+.botonsi {
+    text-decoration: none;
+    color: #ffffff;
+    font: 0.8remm;
+    font-family: fantasy;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #1fc5bd;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    display: inline-block;
+    align-self: center;
+
+}
+.button {
+    text-decoration: none;
+    color: #ffffff;
+    font: 0.8remm;
+    font-family: fantasy;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #1fc5bd;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    display: inline-block;
+    align-self: center;
+
+}
+
+#logo{
+    font-family: fantasy;
+ text-transform: uppercase;
+ font-size: 4rem;
+ font-weight: 700;
+ margin-bottom: 0.5rem;
+}
+
+#inicio{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    
+
+    background: linear-gradient(rgba(68, 13, 13, 0.35), rgba(30,2,2,0.446)), url(../images/fondo1.webp) no-repeat/cover;
+}
+
+
+/* Barra navegacion*/
+#barra-navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#logo{
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-stretch: wider;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem
+}
+
+nav > a:hover{
+    color: #000;
+}
+
+#historia{
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#historia >p{
+
+    text-transform: capitalize;
+    font-family: fantasy;
+    font-size: 1.5rem;
+    margin-bottom: 01.5rem;
+    font-weight: bold;
+
+}
+
+#historia > hr{
+    width: 4.5rem;
+    border-color: white;
+}
+
+#historia > h1{
+ font-family: fantasy;
+ text-transform: uppercase;
+ font-size: 4rem;
+ font-weight: 700;
+ margin-bottom: 0.5rem;
+}
+/*diseño nosotros*/
+#nosotros{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#historia{
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#historia1 >p{
+
+    text-transform: capitalize;
+    font-family: fantasy;
+    font-size: 1.5rem;
+    margin-bottom: 01.5rem;
+    font-weight: bold;
+
+}
+
+#historia1 > hr{
+    width: 4.5rem;
+    border-color: white;
+}
+
+#historia1 > h1{
+ font-family: fantasy;
+ text-transform: uppercase;
+ font-size: 2rem;
+ font-weight: 2;
+ margin-bottom: 0.5rem;
+}
+
+/* diseño productos*/
+
+#productos{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    
+
+}
+
+#titulop{
+    text-transform: capitalize;
+    font-family: fantasy;
+    font-size: 1.5rem;
+    margin-bottom: 01.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#container-productos{
+
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-prod{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.img-prod > img{
+    max-width: 100%;
+}
+.InsertImg.idImagen{
+    height: 30px;
+    width: 30px;
+}
+
+/*footer*/
+
+footer{
+    background: black;
+    color: white;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+      
+        height: 4rem;    
+      
+}
+
+/* Diseño ingreso de productos*/
+
+
+    
+#tabla img{
+    height: 100px;
+    width: 100px;
+    margin-left: 30%;
+}
+
+.InsertImg{
+    padding: 10px;
+    margin: 3%;
+    text-decoration: none;
+}
+#idImagenPrevia{
+   
+    height: 100px;
+    width: 100px;
+} 
+
+.tbody img{
+    height: 100px;
+    width: 100px;
+    margin-left: 30%;
+}
+
+.tbody input{
+    width: 50px;
+    margin-top: 10px;
+}
+.tbody label, .tbody button {
+    margin-top: 10px;
+}
+
+ /*Responsive Web Desig / Media Queries*/
+@media(max-width:522px){
+
+
+
+    .form-register {
+       padding-left: 1rem;
+       padding-right: 1rem;
+    
+      }
+      .form-login{
+        padding-left: 1rem;
+        padding-right: 1rem;
+     
+       }
+     #barra-navegacion{
+         display: flex;
+         flex-direction: center;
+         justify-content: center;
+         margin: auto;
+         padding-top: 2rem;
+         padding-bottom: 0;
+     }
+
+     #barra-navegacion > p,
+    nav{
+             text-align: center;
+         }
+
+    #inicio-historia >h1{
+        font-size: 2.5rem;
+
+    }
+
+    #productos{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        width: 90%;
+
+    }
+
+    #container-productos{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .img-prod{
+        margin-bottom: 2rem;
+    }
+    .img-prod > img{
+        max-width: 100%;
+    }
+
+}
