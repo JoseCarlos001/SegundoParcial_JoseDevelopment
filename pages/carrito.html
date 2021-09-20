@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles/style.css">
+
+</head>
+
+<body>
+
+    <div id="inicio"></div>
+    <div id="barra-navegacion">
+        <p id="logo">Libreria<span style="color: rgb(255, 255, 255);" size="40">360</span></p>
+        <nav>
+            <a href="../index.html" target="_blank"> Inicio</a>
+            <a href="./ingresodeproductos.html" target="_blank"> Catalogo</a>
+           
+        </nav>
+    </div>
+
+    <header class="header">
+        <h1 id="titulo" class="text-center">Su pedido</h1>
+        
+  
+        
+    </header>
+    <div class="container">
+        <form >
+            
+            <table class="table table-bordered table-striped" class="ctable">
+                <br>
+                <thead style="background-color: black; color: white;">
+                    <tr>
+                        <th>Codigo</th>
+                        <th>Producto</th>
+                        <th>Cantidad</th>
+                        <th>Precio Q.</th>
+                        <th>Total Q.</th>
+                    </tr>
+                </thead>
+
+                <tbody class="tbody" id="idBodyTable3">
+                    
+
+                </tbody>
+                
+                
+            </table>
+            <div> 
+                
+                <p>
+                    <label id="TotalPedido"></label> 
+                    
+                </p>
+
+               
+            
+              
+            </div>
+
+        </form>    
+        <form method="get" action="./confirmarpedido.html">
+            <input class="botonsi" type="submit" value="Confirmar Pedido"  >
+      
+    </div>
+
+
+
+    <script src="../JS/catalogo.js"></script>
+    <script src="../JS/carrito.js"></script>
+    <script>
+        cargarDatosCarrito();
+        LlenarCarrito();
+    </script>
+
+    
+<!--footer-->
+<footer>
+    <p>Guatemala City -- Tel. 1590-15-22991 </p>
+    <p>Copyright Jose Carlos Development</p>
+</footer>
+        
+
+
+</body>
+
+</html>
